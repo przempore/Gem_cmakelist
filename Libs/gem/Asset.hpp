@@ -10,10 +10,10 @@ namespace Gem
     class Asset : private boost::noncopyable
     {
     public:
-        virtual ~Asset() = 0;
+	    virtual ~Asset() = 0;
 
     public:
-        virtual void Initialize();
+	    virtual void Initialize();
     };
 
     typedef std::shared_ptr<Asset> AssetPtr;
